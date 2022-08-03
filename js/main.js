@@ -1,6 +1,6 @@
-var elModalOpenButton = document.querySelector(".site-header__hamburger");
+var elModalOpenButton = document.querySelector(".site-header__btn");
 var elModalOpenlink = document.querySelector(".site-header");
 
 elModalOpenButton.addEventListener("click", function (){
-    elModalOpenlink.classList.toggle("site-header__left--active");
+    elModalOpenlink.classList.toggle("site-header--open");
 })
